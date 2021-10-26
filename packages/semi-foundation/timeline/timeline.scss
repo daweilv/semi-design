@@ -169,6 +169,14 @@ $module: #{$prefix}-timeline;
             }
         }
     }
+
+    &-alternate {
+        .#{$module}-item {
+            &-head-custom {
+                margin-left: 0;
+            }
+        }
+    }
 }
 
 @import './rtl.scss';
